@@ -46,11 +46,53 @@
 </nav>
 
 <!-- Hero -->
-<header id="home" class="hero">
-  <div class="container">
-    <h1>Find Your Dream Property</h1>
-    <p>Trusted Real Estate Solutions by Satya Properties</p>
-    <a href="#properties" class="btn btn-primary btn-lg mt-3">Explore Properties</a>
+<header id="home">
+  <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active vh-100 d-flex align-items-center" 
+           style="background: url('https://images.unsplash.com/photo-1560185008-5b16a1e21f77?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;">
+        <!-- Overlay -->
+        <div class="w-100 h-100 position-absolute top-0 start-0 bg-dark opacity-50"></div>
+        <div class="container text-center text-white position-relative">
+          <h1 class="fw-bold display-4">Find Your Dream Property</h1>
+          <p class="lead">Trusted Real Estate Solutions by Satya Properties</p>
+          <a href="#properties" class="btn btn-primary btn-lg mt-3">Explore Properties</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item vh-100 d-flex align-items-center" 
+           style="background: url('https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;">
+        <div class="w-100 h-100 position-absolute top-0 start-0 bg-dark opacity-50"></div>
+        <div class="container text-center text-white position-relative">
+          <h1 class="fw-bold display-4">Residential & Commercial Spaces</h1>
+          <p class="lead">Affordable, Transparent, and Secure Investments</p>
+          <a href="properties.html" class="btn btn-light btn-lg mt-3">View Listings</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item vh-100 d-flex align-items-center" 
+           style="background: url('https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;">
+        <div class="w-100 h-100 position-absolute top-0 start-0 bg-dark opacity-50"></div>
+        <div class="container text-center text-white position-relative">
+          <h1 class="fw-bold display-4">Invest in Your Future</h1>
+          <p class="lead">Satya Properties – Building Trust, Delivering Value</p>
+          <a href="#contact" class="btn btn-outline-light btn-lg mt-3">Get in Touch</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
   </div>
 </header>
 
